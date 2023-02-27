@@ -4,10 +4,9 @@ public class Main {
         int resultado = suma (5,10,18);
         System.out.println(resultado);
 
-        coche auto = new coche();
-        auto.incrementatr_puertas();
-        auto.incrementatr_puertas();
-        System.out.println(auto.puertas);
+        coche MiCoche = new coche();
+        MiCoche.incrementatr_puertas();
+        System.out.println(MiCoche.puertas);
     }
 
 // parte 1
